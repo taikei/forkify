@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js" ,
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open"
+    "begin": "webpack-dev-server --mode development --open"
   },
   "author": "",
   "license": "ISC",
